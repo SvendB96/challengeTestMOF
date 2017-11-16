@@ -37,16 +37,8 @@ hr {
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
 li {
-  float: left;
+  float: right;
 }
 
 li a {
