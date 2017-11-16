@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------------------
-layout.css                                                                  
-Enthält alle übergreifenden typographischen Regeln.  
+layout.css
+Enthält alle übergreifenden typographischen Regeln.
 
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
@@ -8,6 +8,14 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 /* Content
 -----------------------------------------------------------------------------*/
+
+.navbar-main {
+  background-color: #333;
+}
+
+.navbar {
+  max-width: 960px;
+}
 
 .content {
     max-width: var(--content-width);
