@@ -30,6 +30,28 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   max-width: 960px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../images/lolstage.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bildgross {
+  background-image: url("../images/lolstage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+}
+
 .content {
     max-width: var(--content-width);
     margin: 0 auto;
